@@ -1,6 +1,6 @@
 ![teaset](img/teaser.png)    
 
-# AtlasNet v2
+# AtlasNet V2 - Learning Elementary Structures
 This work was build upon [Thibault Groueix](https://github.com/ThibaultGROUEIX/)'s [AtlasNet](https://github.com/ThibaultGROUEIX/AtlasNet) and [3D-CODED](https://github.com/ThibaultGROUEIX/3D-CODED) projects. (you might want to have a look at those)
 
 This repository contains the source codes for the paper [AtlasNet V2 - Learning Elementary Structures](https://arxiv.org/abs/1908.04725).
