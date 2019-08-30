@@ -24,7 +24,7 @@ The project page is available http://imagine.enpc.fr/~deprellt/atlasnet2/
 
 # Install
 
-### Clone the repo and install dependencies
+### Clone the repo and install dependencies 
 
 This implementation uses [Pytorch](http://pytorch.org/).
 
