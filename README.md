@@ -49,7 +49,7 @@ conda install -c conda-forge matplotlib
 ```shell
 cd data; ./download_data.sh; cd ..
 ```
-We used the [ShapeNet](https://www.shapenet.org/) dataset for 3D models, and rendered views from [3D-R2N2](https://github.com/chrischoy/3D-R2N2):
+We used the [ShapeNet](https://www.shapenet.org/) dataset for 3D models.
 
 When using the provided data make sure to respect the shapenet [license](https://shapenet.org/terms).
 
