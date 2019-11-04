@@ -162,7 +162,7 @@ class AtlasNet(nn.Module):
             #==========================================================================
             rand_grid = torch.FloatTensor(x.size(0),self.patchDim,self.npoint//self.npatch).cuda()
             rand_grid.data.uniform_(0,1)
-            rand_grid[:,0:2,:] = 0
+            rand_grid[:,2:,:] = 0
             patches.append(rand_grid[0].transpose(1,0))
             #==========================================================================
 
@@ -209,7 +209,7 @@ class AtlasNetLinAdj(nn.Module):
             #==========================================================================
             rand_grid = torch.FloatTensor(x.size(0),self.patchDim,self.npoint//self.npatch).cuda()
             rand_grid.data.uniform_(0,1)
-            rand_grid[:,0:2,:] = 0
+            rand_grid[:,2:,:] = 0
             patches.append(rand_grid[0].transpose(1,0))
             #==========================================================================
 
@@ -376,7 +376,7 @@ class PatchDeformMLPAdj(nn.Module):
             #==========================================================================
             rand_grid = torch.FloatTensor(x.size(0),self.patchDim,self.npoint//self.npatch).cuda()
             rand_grid.data.uniform_(0,1)
-            rand_grid[:,0:2,:] = 0
+            rand_grid[:,2:,:] = 0
             rand_grid = self.patchDeformation[i](rand_grid.contiguous())
             patches.append(rand_grid[0].transpose(1,0))
             #==========================================================================
@@ -427,7 +427,7 @@ class PatchDeformLinAdj(nn.Module):
             #==========================================================================
             rand_grid = torch.FloatTensor(x.size(0),self.patchDim,self.npoint//self.npatch).cuda()
             rand_grid.data.uniform_(0,1)
-            rand_grid[:,0:2,:] = 0
+            rand_grid[:,2:,:] = 0
             #==========================================================================
 
             #deform the planar patch
