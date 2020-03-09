@@ -112,6 +112,10 @@ git pull; python training/train.py --model PointTranslation --adjust linear
 
 * Monitor your training on http://localhost:8888/
 
+## Models 
+
+The models train on the SURREAL dataset for the FAUST competition can be found [here](https://github.com/ThibaultGROUEIX/3D-CODED) 
+
 ## Acknowledgement
 
 This work was partly supported by ANR project EnHerit ANR-17-CE23-0008, Labex Bezout, and gifts from Adobe to Ecole des Ponts.
