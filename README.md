@@ -10,10 +10,11 @@ This repository contains the source codes for the paper [AtlasNet V2 - Learning 
 If you find this work useful in your research, please consider citing:
 
 ```
-@article{deprelle2019learning,
+@inproceedings{deprelle2019learning,
   title={Learning elementary structures for 3D shape generation and matching},
-  author={Deprelle, Theo and Groueix, Thibault and Fisher, Matthew and Kim, Vladimir G and Russell, Bryan C and Aubry, Mathieu},
-  journal={arXiv preprint arXiv:1908.04725},
+  author={Deprelle, Theo and Groueix, Thibault and Fisher, Matthew and Kim, Vladimir and Russell, Bryan and Aubry, Mathieu},
+  booktitle={Advances in Neural Information Processing Systems},
+  pages={7433--7443},
   year={2019}
 }
 ```
@@ -110,10 +111,6 @@ git pull; python training/train.py --model PointTranslation --adjust linear
 
 
 * Monitor your training on http://localhost:8888/
-
-## Trained models
-
-Coming soon...
 
 ## Acknowledgement
 
