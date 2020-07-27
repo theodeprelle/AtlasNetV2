@@ -55,7 +55,7 @@ We used the [ShapeNet](https://www.shapenet.org/) dataset for 3D models.
 When using the provided data make sure to respect the shapenet [license](https://shapenet.org/terms).
 
 * [The point clouds from ShapeNet, with normals](https://cloud.enpc.fr/s/j2ECcKleA1IKNzk) go in ``` data/customShapeNet```
-* [The corresponding normalized mesh (for the metro distance)](https://cloud.enpc.fr/s/RATKsfLQUSu0JWW) go in ``` data/ShapeNetCorev2Normalized```
+* [The corresponding normalized mesh (for the metro distance)](https://cloud.enpc.fr/s/RATKsfLQUSu0JWW) goes in ``` data/ShapeNetCorev2Normalized```
 * [the rendered views](https://cloud.enpc.fr/s/S6TCx1QJzviNHq0) go in ``` data/ShapeNetRendering```
 
 The trained models and some corresponding results are also available online :
