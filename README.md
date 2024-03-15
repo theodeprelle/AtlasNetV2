@@ -60,7 +60,7 @@ When using the provided data make sure to respect the shapenet [license](https:/
 
 The trained models and some corresponding results are also available online :
 
-* [The trained_models](https://cloud.enpc.fr/s/c27Df7fRNXW2uG3) go in ``` trained_models/```
+* [The trained_models](https://cloud.enpc.fr/s/qt5M3ZnjF8NZoy4) go in ``` trained_models/```
 
 
 ### Build chamfer distance
